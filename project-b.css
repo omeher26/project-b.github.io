@@ -1,0 +1,83 @@
+.navbar{
+    background-color: rgb(226, 242, 5) !important;
+    
+}
+
+.nav-link{
+    color: rgb(243, 112, 11);
+    font-weight: bold;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+}
+
+.navbar-nav{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.navbar-brand{
+    color: azure;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid black ;
+}
+
+.carousel-item img{
+    height: 90vh;
+}
+
+.a11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+.a1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6vh;
+}
+
+.card img{
+    height: 25vh;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 15px gray;
+    margin-top: -2rem;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.a21{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7vh;
+}
+
+.a22{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 4vh; */
+    flex-direction: column;
+}
+.a22 img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.a31{
+    padding: 3vw;
+    height: 50vh;
+    margin-bottom: 4vh;
+}
